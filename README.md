@@ -8,10 +8,10 @@ The console application used to run the seating plan is called WeddingSeating. I
 - tables: table_letter_id-number of seats
 - Name, party of number_of_guests dislikes Names(comma separated)
   
-  Example: 
-  tables: A-8 B-8 C-7 D-7
-  Smith, party of 10 
-  Jones, party of 7 dislikes Smith
+  Example: <br/>
+  tables: A-8 B-8 C-7 D-7<br/>
+  Smith, party of 10 <br/>
+  Jones, party of 7 dislikes Smith<br/>
 
 ### Installation
 
