@@ -33,6 +33,7 @@ namespace WeddingSeating
         private static void ShowUsage()
         {
             Console.WriteLine("To run this application please use the following syntax: WeddingSeater [SeatingFile.txt]");
+            Console.ReadLine();
         }
     }
 }
