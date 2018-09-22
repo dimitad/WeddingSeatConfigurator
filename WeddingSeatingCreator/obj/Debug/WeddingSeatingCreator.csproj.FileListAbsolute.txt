@@ -1,0 +1,5 @@
+C:\Users\Dimitar\Documents\Visual Studio 2012\Projects\WeddingSeating\WeddingSeatingCreator\bin\Debug\WeddingSeatingCreator.dll
+C:\Users\Dimitar\Documents\Visual Studio 2012\Projects\WeddingSeating\WeddingSeatingCreator\bin\Debug\WeddingSeatingCreator.pdb
+C:\Users\Dimitar\Documents\Visual Studio 2012\Projects\WeddingSeating\WeddingSeatingCreator\obj\Debug\WeddingSeatingCreator.dll
+C:\Users\Dimitar\Documents\Visual Studio 2012\Projects\WeddingSeating\WeddingSeatingCreator\obj\Debug\WeddingSeatingCreator.pdb
+C:\Users\Dimitar\Documents\Visual Studio 2012\Projects\WeddingSeating\WeddingSeatingCreator\obj\Debug\WeddingSeatingCreator.csprojResolveAssemblyReference.cache
