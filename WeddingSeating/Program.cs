@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace WeddingSeating
 {
@@ -13,19 +12,21 @@ namespace WeddingSeating
                 return;
             }
 
-            var fileLoader = new FileLoader(args[0]);
-            var config = fileLoader.Read();
-
-            if (!config.Any())
+            try
             {
-                Console.WriteLine("Source file is blank. Please provide a valid file.");
-                return;
-            }
+                var fileLoader = new FileLoader(args[0]);
+                var config = fileLoader.Read();
 
-            var weddingSeatingCreator = new WeddingSeatingCreator.WeddingSeatingCreator(config);
-            weddingSeatingCreator.AssignWeddingTables();
+                var weddingSeatingCreator = new WeddingSeatingCreator.WeddingSeatingCreator(config);
+                weddingSeatingCreator.AssignWeddingTables();
+
+                Console.WriteLine(weddingSeatingCreator.GetTableAssignments());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             
-            Console.WriteLine(weddingSeatingCreator.GetTableAssignments());
             Console.ReadLine();
         }
 
