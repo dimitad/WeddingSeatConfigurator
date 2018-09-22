@@ -5,8 +5,8 @@ Library that helps assign seating to wedding guests given a list of available ta
 ## Getting Started
 
 The console application used to run the seating plan is called WeddingSeating. It expects a text file as input in the following format:
-- tables: <<letter>>-<<number of seats>>
-- Name, party of <<number of guests>> dislikes <<Names>>
+- tables: table_letter_id-number of seats
+- Name, party of number_of_guests dislikes Names(comma separated)
   
   Example: 
   tables: A-8 B-8 C-7 D-7
@@ -23,4 +23,4 @@ Unit tests require NUnit 3.10.0
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache License 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
